@@ -1,0 +1,159 @@
+{
+  "repo": "pnpm-v9.0-pnpm",
+  "packageManager": "pnpm",
+  "lockfile": "pnpm-lock.yaml",
+  "lockfileVersion": "9.0",
+  "packages": [
+    {
+      "name": "@pnpm/exe",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-lpa3BGQaCvH5BGS256VTyJ4+Ib2PiA5gipTfTs7MTL02utSYXcWarP0OeDhw++Cg/tgrCVRDYWcUjHOy/KNTtA==",
+      "hasBin": true
+    },
+    {
+      "name": "@pnpm/linux-arm64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-6JIbPFu8y7RevLIpOH/rhML9JtnLgAa9VVVGl8A02+sRdF415Q3cldz+N9Oh3ZNLi2JZWtvHRa5UE2FRFELOJQ=="
+    },
+    {
+      "name": "@pnpm/linux-x64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-5nSOBz07hmznMKJ88LaO/mk6BXCOMs3cA7VkwAz7ehWvtxeT1Dqez2Rnf5nK//BgEF1jQ8cgjff6MWaSmiYY8A=="
+    },
+    {
+      "name": "@pnpm/macos-arm64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-X1KgttzXrspprRU4JV3y1rxraX/H8AzXhuO3tDJj01nbUhps0kkjdfJziLJFFYN74bwSO8DgFWmJ5w5V+Hp0Cg=="
+    },
+    {
+      "name": "@pnpm/macos-x64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-Ra/CuHN7hrqScrl9w3zPDcMbY5AjAZMqTDKXL/1qP/GlY4lOJp24sQrH19y3pQGoUKoxlvVo0S4I29ZX2Wsf7A=="
+    },
+    {
+      "name": "@pnpm/win-arm64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-vum6DgUMO6hxYdhJBUkdNpnXW0TU/iKRUuZca6qgn/uckhaobENsuaN0pG1ga49G26I+jL5C8GfVBmdnRenm6w=="
+    },
+    {
+      "name": "@pnpm/win-x64",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-avY9Gz97pvcWO7nRL1AoJToVwljZIybX9A09buGpgrxTSTGjfs6bbFE+d+576ro02MHqhTn6qUnkCbPyKPcWrA=="
+    },
+    {
+      "name": "@reflink/reflink-darwin-arm64",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-ruy44Lpepdk1FqDz38vExBY/PVUsjxZA+chd9wozjUH9JjuDT/HEaQYA6wYN9mf041l0yLVar6BCZuWABJvHSA==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-darwin-x64",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-By85MSWrMZa+c26TcnAy8SDk0sTUkYlNnwknSchkhHpGXOtjNDUOxJE9oByBnGbeuIE1PiQsxDG3Ud+IVV9yuA==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-linux-arm64-gnu",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-7P+er8+rP9iNeN+bfmccM4hTAaLP6PQJPKWSA4iSk2bNvo6KU6RyPgYeHxXmzNKzPVRcypZQTpFgstHam6maVg==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-linux-arm64-musl",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-37iO/Dp6m5DDaC2sf3zPtx/hl9FV3Xze4xoYidrxxS9bgP3S8ALroxRK6xBG/1TtfXKTvolvp+IjrUU6ujIGmA==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-linux-x64-gnu",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-jbI8jvuYCaA3MVUdu8vLoLAFqC+iNMpiSuLbxlAgg7x3K5bsS8nOpTRnkLF7vISJ+rVR8W+7ThXlXlUQ93ulkw==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-linux-x64-musl",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-e9FBWDe+lv7QKAwtKOt6A2W/fyy/aEEfr0g6j/hWzvQcrzHCsz07BNQYlNOjTfeytrtLU7k449H1PI95jA4OjQ==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-win32-arm64-msvc",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-09PxnVIQcd+UOn4WAW73WU6PXL7DwGS6wPlkMhMg2zlHHG65F3vHepOw06HFCq+N42qkaNAc8AKIabWvtk6cIQ==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink-win32-x64-msvc",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "optional",
+      "integrity": "sha512-E//yT4ni2SyhwP8JRjVGWr3cbnhWDiPLgnQ66qqaanjjnMiu3O/2tjCPQXlcGc/DEYofpDc9fvhv6tALQsMV9w==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "@reflink/reflink",
+      "version": "0.1.19",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-DmCG8GzysnCZ15bres3N5AHCmwBwYgp0As6xjhQ47rAUTUXxJiK+lLUxaGsX3hd/30qUpVElh05PbGuxRPgJwA==",
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    {
+      "name": "pnpm",
+      "version": "11.0.0-rc.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-Hwjq3uoCXpFEjebV3uQqbJR2QlcADAQ6nja4/xKEmnLry5xl/BiFCUdHJJ5S9T2Lc62hGBRGu6gYZoEMik0/bA==",
+      "engines": {
+        "node": ">=22.13"
+      },
+      "hasBin": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "repo": "yarn-v1-parse-yarn-lockfile",
+  "packageManager": "yarn",
+  "lockfile": "yarn.lock",
+  "lockfileVersion": "1",
+  "yarnFlavour": "classic",
+  "packages": [
+    {
+      "name": "argparse",
+      "version": "2.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolved": "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz",
+      "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
+    },
+    {
+      "name": "invariant",
+      "version": "2.2.4",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^2.2.4",
+      "resolved": "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz",
+      "integrity": "sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA=="
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolved": "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz",
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.0.0",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^4.0.0",
+      "resolved": "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.0.0.tgz",
+      "integrity": "sha512-pqon0s+4ScYUvX30wxQi3PogGFAlUyH0awepWvwkj4jD4v+ova3RiYw8bmA6x2rDrEaj8i/oWKoRxpVNW+Re8Q=="
+    },
+    {
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolved": "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz",
+      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
+    },
+    {
+      "name": "strip-bom",
+      "version": "4.0.0",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^4.0.0",
+      "resolved": "https://registry.yarnpkg.com/strip-bom/-/strip-bom-4.0.0.tgz",
+      "integrity": "sha512-3xurFv5tEgii33Zi8Jtp55wEIILR9eh34FAW00PZf+JnSsTmV/ioewSgQl97JHvgjoRGwPShsWm+IdrxB35d0w=="
+    }
+  ]
+}

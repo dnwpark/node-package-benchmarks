@@ -1,0 +1,593 @@
+{
+  "repo": "bun-text-postgres-language-server",
+  "packageManager": "bun",
+  "lockfile": "bun.lock",
+  "lockfileVersion": "1",
+  "packages": [
+    {
+      "name": "@oxfmt/binding-android-arm-eabi",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-sqkqjh/Z38l+duOb1HtVqJTAj1grt2ttkobCopC/72+a4Xxz4xUgZPFyQ4HxrYMvyqO/YA0tvM1QbfOu70Gk1Q==",
+      "os": "android",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxfmt/binding-android-arm64",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-1KRCtasHcVcGOMwfOP9d5Bus2NFsN8yAYM5cBwi8LBg5UtXC3C49WHKrlEa8iF1BjOS6CR2qIqiFbGoA0DJQNQ==",
+      "os": "android",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-darwin-arm64",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-b+Rmw9Bva6e/7PBES2wLO8sEU7Mi0+/Kv+pXSe/Y8i4fWNftZZlGwp8P01eECaUqpXATfSgNxdEKy7+ssVNz7g==",
+      "os": "darwin",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-darwin-x64",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-QGjpevWzf1T9COEokZEWt80kPOtthW1zhRbo7x4Qoz646eTTfi6XsHG2uHeDWJmTbgBoJZPMgj2TAEV/ppEZaA==",
+      "os": "darwin",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxfmt/binding-freebsd-x64",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-VMSaC02cG75qL59M9M/szEaqq/RsLfgpzQ4nqUu8BUnX1zkiZIW2gTpUv3ZJ6qpWnHxIlAXiRZjQwmcwpvtbcg==",
+      "os": "freebsd",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm-gnueabihf",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-Klm367PFJhH6vYK3vdIOxFepSJZHPaBfIuqwxdkOcfSQ4qqc/M8sgK0UTFnJWWTA/IkhMIh1kW6uEqiZ/xtQqg==",
+      "os": "linux",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm-musleabihf",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-nqn0QueVXRfbN9m58/E9Zij0Ap8lzayx591eWBYn0sZrGzY1IRv9RYS7J/1YUXbb0Ugedo0a8qIWzUHU9bWQuA==",
+      "os": "linux",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm64-gnu",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-DDn+dcqW+sMTCEjvLoQvC/VWJjG7h8wcdN/J+g7ZTdf/3/Dx730pQElxPPGsCXPhprb11OsPyMp5FwXjMY3qvA==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm64-musl",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-H+F8+71gHQoGTFPPJ6z4dD0Fzfzi0UP8Zx94h5kUmIFThLvMq5K1Y/bUUubiXwwHfwb5C3MPjUpYijiy0rj51Q==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-linux-ppc64-gnu",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-dIGnzTNhCXqQD5pzBwduLg8pClm+t8R53qaE9i5h8iua1iaFAJyLffh4847CNZSlASb7gn1Ofuv7KoG/EpoGZg==",
+      "os": "linux",
+      "cpu": "ppc64"
+    },
+    {
+      "name": "@oxfmt/binding-linux-riscv64-gnu",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-FGQ2GTTooilDte/ogwWwkHuuL3lGtcE3uKM2EcC7kOXNWdUfMY6Jx3JCodNVVbFoybv4A+HuCj8WJji2uu1Ceg==",
+      "os": "linux",
+      "cpu": "none"
+    },
+    {
+      "name": "@oxfmt/binding-linux-riscv64-musl",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-2dGbGneJ7ptOIVKMwEIHdCkdZEomh74X3ggo4hCzEXL/rl9HwfsZDR15MkqfQqAs6nVXMvtGIOMxjDYa5lwKaA==",
+      "os": "linux",
+      "cpu": "none"
+    },
+    {
+      "name": "@oxfmt/binding-linux-s390x-gnu",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-cCtGgmrTrxq3OeSG0UAO+w6yLZTMeOF4XM9SAkNrRUxYhRQELSDQ/iNPCLyHhYNi38uHJQbS5RQweLUDpI4ajA==",
+      "os": "linux",
+      "cpu": "s390x"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-7AvMzmeX+k7GdgitXp99GQoIV/QZIpAS7rwxQvC/T541yWC45nwvk4mpnU8N+V6dE5SPEObnqfhCjO80s7qIsg==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-uNiglhcmivJo1oDMh3hoN/Z0WsbEXOpRXZdQ3W/IkOpyV8WF308jFjSC1ZxajdcNRXWej0zgge9QXba58Owt+g==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxfmt/binding-openharmony-arm64",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-5eFsTjCyji25j6zznzlMc+wQAZJoL9oWy576xhqd2efv+N4g1swIzuSDcb1dz4gpcVC6veWe9pAwD7HnrGjLwg==",
+      "os": "none",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-win32-arm64-msvc",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-6id8kK0t5hKfbV6LHDzRO21wRTA6ctTlKGTZIsG/mcoir0rssvaYsedUymF4HDj7tbCUlnxCX/qOajKlEuqbIw==",
+      "os": "win32",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxfmt/binding-win32-ia32-msvc",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-QHaz+w673mlYqn9v/+fuiKZpjkmagleXQ+NygShDv8tdHpRYX2oYhTJwwt9j1ZfVhRgza1EIUW3JmzCXmtPdhQ==",
+      "os": "win32",
+      "cpu": "ia32"
+    },
+    {
+      "name": "@oxfmt/binding-win32-x64-msvc",
+      "version": "0.34.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-CXKQM/VaF+yuvGru8ktleHLJoBdjBtTFmAsLGePiESiTN0NjCI/PiaiOCfHMJ1HdP1LykvARUwMvgaN3tDhcrg==",
+      "os": "win32",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxlint/binding-android-arm-eabi",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-2WPoh/2oK9r/i2R4o4J18AOrm3HVlWiHZ8TnuCaS4dX8m5ZzRmHW0I3eLxEurQLHWVruhQN7fHgZnah+ag5iQg==",
+      "os": "android",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxlint/binding-android-arm64",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-YqJAGvNB11EzoKm1euVhZntb79alhMvWW/j12bYqdvVxn6xzEQWrEDCJg9BPo3A3tBCSUBKH7bVkAiCBqK/L1w==",
+      "os": "android",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-darwin-arm64",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-WFocCRlvVkMhChCJ2qpJfp1Gj/IjvyjuifH9Pex8m8yHonxxQa3d8DZYreuDQU3T4jvSY8rqhoRqnpc61Nlbxw==",
+      "os": "darwin",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-darwin-x64",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-BN0KniwvehbUfYztOMwEDkYoojGm/narf5oJf+/ap+6PnzMeWLezMaVARNIS0j3OdMkjHTEP8s3+GdPJ7WDywQ==",
+      "os": "darwin",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxlint/binding-freebsd-x64",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-SnkAc/DPIY6joMCiP/+53Q+N2UOGMU6ULvbztpmvPJNF/jYPGhNbKtN982uj2Gs6fpbxYkmyj08QnpkD4fbHJA==",
+      "os": "freebsd",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxlint/binding-linux-arm-gnueabihf",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-6Z3EzRvpQVIpO7uFhdiGhdE8Mh3S2VWKLL9xuxVqD6fzPhyI3ugthpYXlCChXzO8FzcYIZ3t1+Kau+h2NY1hqA==",
+      "os": "linux",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxlint/binding-linux-arm-musleabihf",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-wdjXaQYAL/L25732mLlngfst4Jdmi/HLPVHb3yfCoP5mE3lO/pFFrmOJpqWodgv29suWY74Ij+RmJ/YIG5VuzQ==",
+      "os": "linux",
+      "cpu": "arm"
+    },
+    {
+      "name": "@oxlint/binding-linux-arm64-gnu",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-oSHpm8zmSvAG1BWUumbDRSg7moJbnwoEXKAkwDf/xTQJOzvbUknq95NVQdw/AduZr5dePftalB8rzJNGBogUMg==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-linux-arm64-musl",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-xeqkMOARgGBlEg9BQuPDf6ZW711X6BT5qjDyeM5XNowCJeTSdmMhpePJjTEiVbbr3t21sIlK8RE6X5bc04nWyQ==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-linux-ppc64-gnu",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-uvcqRO6PnlJGbL7TeePhTK5+7/JXbxGbN+C6FVmfICDeeRomgQqrfVjf0lUrVpUU8ii8TSkIbNdft3M+oNlOsQ==",
+      "os": "linux",
+      "cpu": "ppc64"
+    },
+    {
+      "name": "@oxlint/binding-linux-riscv64-gnu",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-Dw1HkdXAwHNH+ZDserHP2RzXQmhHtpsYYI0hf8fuGAVCIVwvS6w1+InLxpPMY25P8ASRNiFN3hADtoh6lI+4lg==",
+      "os": "linux",
+      "cpu": "none"
+    },
+    {
+      "name": "@oxlint/binding-linux-riscv64-musl",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-EPlMYaA05tJ9km/0dI9K57iuMq3Tw+nHst7TNIegAJZrBPtsOtYaMFZEaWj02HA8FI5QvSnRHMt+CI+RIhXJBQ==",
+      "os": "linux",
+      "cpu": "none"
+    },
+    {
+      "name": "@oxlint/binding-linux-s390x-gnu",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-yZiQL9qEwse34aMbnMb5VqiAWfDY+fLFuoJbHOuzB1OaJZbN1MRF9Nk+W89PIpGr5DNPDipwjZb8+Q7wOywoUQ==",
+      "os": "linux",
+      "cpu": "s390x"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-CcCDwMMXSchNkhdgvhVn3DLZ4EnBXAD8o8+gRzahg+IdSt/72y19xBgShJgadIRF0TsRcV/MhDUMwL5N/W54aQ==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-u3HfKV8BV6t6UCCbN0RRiyqcymhrnpunVmLFI8sEa5S/EBu+p/0bJ3D7LZ2KT6PsBbrB71SWq4DeFrskOVgIZg==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@oxlint/binding-openharmony-arm64",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-dRDpH9fw+oeUMpM4br0taYCFpW6jQtOuEIec89rOgDA1YhqwmeRcx0XYeCv7U48p57qJ1XZHeMGM9LdItIjfzA==",
+      "os": "none",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-win32-arm64-msvc",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-6rrKe/wL9tn0qnOy76i1/0f4Dc3dtQnibGlU4HqR/brVHlVjzLSoaH0gAFnLnznh9yQ6gcFTBFOPrcN/eKPDGA==",
+      "os": "win32",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@oxlint/binding-win32-ia32-msvc",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-CXHLWAtLs2xG/aVy1OZiYJzrULlq0QkYpI6cd7VKMrab+qur4fXVE/B1Bp1m0h1qKTj5/FTGg6oU4qaXMjS/ug==",
+      "os": "win32",
+      "cpu": "ia32"
+    },
+    {
+      "name": "@oxlint/binding-win32-x64-msvc",
+      "version": "1.49.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-VteIelt78kwzSglOozaQcs6BCS4Lk0j+QA+hGV0W8UeyaqQ3XpbZRhDU55NW1PPvCy1tg4VXsTlEaPovqto7nQ==",
+      "os": "win32",
+      "cpu": "x64"
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.58.2",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-akea+6bHYBBfA9uQqSYmlJXn61cTa+jbO87xVLCWbTqbWadRVmhxlXATaOjOgcBaWU4ePo0wB41KMFv3o35IXA=="
+    },
+    {
+      "name": "@postgres-language-server/backend-jsonrpc",
+      "version": "postgres-language-server/backend-jsonrpc",
+      "direct": false,
+      "scope": "unknown"
+    },
+    {
+      "name": "@postgres-language-server/cli",
+      "version": "postgres-language-server/cli",
+      "direct": false,
+      "scope": "unknown"
+    },
+    {
+      "name": "@postgres-language-server/cli-aarch64-apple-darwin",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-0Umsb4yuHyI8D9oZkkpa6H4aZXMAAMLa7qbOrHRP9IMML4mKp5B9wkCiyvgd1ZKRP82UQBZnVjh53AGXky4Jdw==",
+      "os": "darwin",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgres-language-server/cli-aarch64-linux-gnu",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-ye8IQLNLyJK4hR5tx8rKh1tEO1Sb+Dw574cbBG++K46LTZAdRq5/IQrNkIfDzFdgU+HMK3QYfm54cgudYeVVlQ==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgres-language-server/cli-aarch64-windows-msvc",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-FkOjgvN7+vq0RvwVD/effFjKgH1mrAVMnV+3eO9bdZ6jCXpPesGOyCvyhf59IzoqmvIMyEeKJzjOUcXxWPmdZg==",
+      "os": "win32",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgres-language-server/cli-x86_64-apple-darwin",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-B79kZ9tz8fvGihv4W/cyCFzw5Wz95HlqF1hnNTBocJtf8Nvo9h6RDWoUEYliBjRp37gcdV945ZjV2RHHxdKMTw==",
+      "os": "darwin",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgres-language-server/cli-x86_64-linux-gnu",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-lh5Lg/Cc18+232NRd1OZqdpJzuJMW6lrwkC6RKYiiTzxUfRq7uRV8qI0NNnp5cyKiyDO90cpQQ8fjepTaMzh9A==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgres-language-server/cli-x86_64-linux-musl",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-YH5Znq0urRUxtdsbyDu6Dcg5x9qhgDqTl7gCVY/LmVrPnHfP2I6gU/TJT21B5sDTSadjwZ73AbXimLmlwG6HPA==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgres-language-server/cli-x86_64-windows-msvc",
+      "version": "0.17.1",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-o2uIx0Vi3iEBFKKnz024JicgovJZWpM9G4WbQxf3r9IQlZPWvDXknlX7rNPQDnQTFRIUg8bpjZpjEvDFHMmuGg==",
+      "os": "win32",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgres-language-server/wasm",
+      "version": "postgres-language-server/wasm",
+      "direct": false,
+      "scope": "unknown"
+    },
+    {
+      "name": "@postgrestools/backend-jsonrpc",
+      "version": "postgrestools/backend-jsonrpc",
+      "direct": false,
+      "scope": "unknown"
+    },
+    {
+      "name": "@postgrestools/cli-aarch64-apple-darwin",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-LqgpsiupuNR1m8rSqcMdwep1UsSG5z7RZ9MYHODBB0+AsN/e1YzcyutqGeKs+AfDBdKdv7QmSbpf7KruBYL+tg==",
+      "os": "darwin",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgrestools/cli-aarch64-linux-gnu",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-QxZZBvg9qAo9raTA5cSuSXlrqo+eCUtYMWSR2dgDCEqogNlo/62ubWYgPi+SMEtfm9euqG1GOItxyRv6xUriEA==",
+      "os": "linux",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgrestools/cli-aarch64-windows-msvc",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-C8BRZOPQA16eGL8Kk7D4M+9h2Y7x0GOJEBzjR3ZV54besoH8gcZqSxzaA8WbFczQ3dgEZ5CStny6asl3B5JMHA==",
+      "os": "win32",
+      "cpu": "arm64"
+    },
+    {
+      "name": "@postgrestools/cli-x86_64-apple-darwin",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-stbU4+en82DofjzpAQlfgKemJe1lbkGhuOAxfWce4jyT25+cil6cEWBia0hZyrve9sVEJctE1MHy9os8s3EGww==",
+      "os": "darwin",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgrestools/cli-x86_64-linux-gnu",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-RPFdgcAiD+BWhSFw7suI0jTkJysHlHzrD4in27OGlKt9AvZ6TgKrCfDatUkn2VQfn6Ib8o/+1roFOKwFbfQIOw==",
+      "os": "linux",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgrestools/cli-x86_64-windows-msvc",
+      "version": "0.13.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-4S6mbvc9u6ipeMcZHwX3RqGMJaNR9B5utMQN/N3LBnvLx62N9MHU1bk3bnGxfHoALXQTMq+us7M9GvEe1izGHQ==",
+      "os": "win32",
+      "cpu": "x64"
+    },
+    {
+      "name": "@postgrestools/postgrestools",
+      "version": "postgrestools/postgrestools",
+      "direct": false,
+      "scope": "unknown"
+    },
+    {
+      "name": "@types/bun",
+      "version": "1.2.5",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "latest",
+      "integrity": "sha512-w2OZTzrZTVtbnJew1pdFmgV99H0/L+Pvw+z1P67HaR18MHOzYnTYOi6qzErhK8HyT+DB782ADVPPE92Xu2/Opg=="
+    },
+    {
+      "name": "@types/node",
+      "version": "22.13.10",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw=="
+    },
+    {
+      "name": "@types/ws",
+      "version": "8.5.14",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-bd/YFLW+URhBzMXurx7lWByOu+xzU9+kb3RboOteXYDfW+tr+JZa99OyNmPINEGB/ahzKrEuc8rcv4gnpJmxTw=="
+    },
+    {
+      "name": "bun-types",
+      "version": "1.2.5",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-3oO6LVGGRRKI4kHINx5PIdIgnLRb7l/SprhzqXapmoYkFl5m4j6EvALvbDVuuBFaamB46Ap6HCUxIXNLCGy+tg=="
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.2",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+      "os": "darwin"
+    },
+    {
+      "name": "oxfmt",
+      "version": "0.34.0",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "0.34.0",
+      "integrity": "sha512-t+zTE4XGpzPTK+Zk9gSwcJcFi4pqjl6PwO/ZxPBJiJQ2XCKMucwjPlHxvPHyVKJtkMSyrDGfQ7Ntg/hUr4OgHQ=="
+    },
+    {
+      "name": "oxlint",
+      "version": "1.49.0",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "1.49.0",
+      "integrity": "sha512-YZffp0gM+63CJoRhHjtjRnwKtAgUnXM6j63YQ++aigji2NVvLGsUlrXo9gJUXZOdcbfShLYtA6RuTu8GZ4lzOQ=="
+    },
+    {
+      "name": "playwright",
+      "version": "1.58.2",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-vA30H8Nvkq/cPBnNw4Q8TWz1EJyqgpuinBcHET0YVJVFldr8JDNiU9LaWAE1KqSkRYazuaBhTpB5ZzShOezQ6A=="
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.58.2",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg=="
+    },
+    {
+      "name": "tinypool",
+      "version": "2.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-Pugqs6M0m7Lv1I7FtxN4aoyToKg1C4tu+/381vH35y8oENM/Ai7f7C4StcoK4/+BSw9ebcS8jRiVrORFKCALLw=="
+    },
+    {
+      "name": "typescript",
+      "version": "5.8.2",
+      "direct": true,
+      "scope": "peer",
+      "specifier": "^5",
+      "integrity": "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ=="
+    },
+    {
+      "name": "undici-types",
+      "version": "6.20.0",
+      "direct": false,
+      "scope": "unknown",
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    }
+  ]
+}

@@ -1,0 +1,2753 @@
+{
+  "repo": "yarn-berry-v4-otto-app",
+  "packageManager": "yarn",
+  "lockfile": "yarn.lock",
+  "lockfileVersion": "berry-metadata-v8",
+  "yarnFlavour": "berry",
+  "yarnToolVersion": null,
+  "packages": [
+    {
+      "name": "@biomejs/biome",
+      "version": "2.3.5",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "2.3.5",
+      "resolution": "@biomejs/biome@npm:2.3.5",
+      "checksum": "10c0/c29264d9e3427b665a169af01aadea5584def961397ff6e1d1be4f16c5d37aca1b1b6ea1e6190c63330d0d8022009261ddc4c42a39727f77d5668b91e427b4f3",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-darwin-arm64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-darwin-arm64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-darwin-x64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-darwin-x64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-linux-arm64-musl",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-linux-arm64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-linux-arm64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-linux-x64-musl",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-linux-x64-musl@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-linux-x64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-linux-x64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-win32-arm64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-win32-arm64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@biomejs/cli-win32-x64",
+      "version": "2.3.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@biomejs/cli-win32-x64@npm:2.3.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/kv-asset-handler",
+      "version": "0.4.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/kv-asset-handler@npm:0.4.0",
+      "checksum": "10c0/54273c796d9815294599d7958a1a4e342f5519a03cc24c9501cf24d8721de9dbb8c53262941acb0e058bd9e952f807e3e1caa3ae242a0eabc26b1d2caa9a26f6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/unenv-preset",
+      "version": "2.7.10",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/unenv-preset@npm:2.7.10",
+      "checksum": "10c0/1608dd4175d4f9d724e45f8666ac8da2329994a190ad8e8da6213da543040c4e812daa2ba5d89cf54f3b32859a040dc8174724d5cbd142c9939e6722901a692c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/vitest-pool-workers",
+      "version": "0.10.6",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^0.10.6",
+      "resolution": "@cloudflare/vitest-pool-workers@npm:0.10.6",
+      "checksum": "10c0/4154fad86bf2f45454ffc94bfe5432560aa03b766dfae6a7df70fccdee42148756c0c170627aab5dba1f930a7e7eb6ecf8cd9b1f4824fe22147fc40b799204a5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-64",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/workerd-darwin-64@npm:1.20251109.0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-arm64",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/workerd-darwin-arm64@npm:1.20251109.0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/workerd-linux-64",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/workerd-linux-64@npm:1.20251109.0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/workerd-linux-arm64",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/workerd-linux-arm64@npm:1.20251109.0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cloudflare/workerd-windows-64",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cloudflare/workerd-windows-64@npm:1.20251109.0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@cspotcode/source-map-support",
+      "version": "0.8.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@cspotcode/source-map-support@npm:0.8.1",
+      "checksum": "10c0/05c5368c13b662ee4c122c7bfbe5dc0b613416672a829f3e78bc49a357a197e0218d6e74e7c66cfcd04e15a179acab080bd3c69658c9fbefd0e1ccd950a07fc6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.7.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@emnapi/runtime@npm:1.7.0",
+      "checksum": "10c0/b99334582effe146e9fb5cd9e7f866c6c7047a8576f642456d56984b574b40b2ba14e4aede26217fcefa1372ddd1e098a19912f17033a9ae469928b0dc65a682",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/aix-ppc64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/aix-ppc64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-arm@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-arm@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/android-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/darwin-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/darwin-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/darwin-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/darwin-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/freebsd-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/freebsd-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/freebsd-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/freebsd-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-arm@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-arm@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-ia32@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-ia32@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-loong64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-loong64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-mips64el@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-mips64el@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-ppc64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-ppc64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-riscv64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-riscv64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-s390x@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-s390x@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/linux-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/netbsd-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/netbsd-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/netbsd-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/netbsd-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/openbsd-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/openbsd-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/openbsd-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/openbsd-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/openharmony-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/sunos-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/sunos-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-arm64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-arm64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-ia32@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-ia32@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-x64@npm:0.25.12",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@esbuild/win32-x64@npm:0.25.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-darwin-arm64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-darwin-arm64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-darwin-x64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-darwin-x64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-darwin-arm64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-x64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-darwin-x64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linux-arm64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm",
+      "version": "1.0.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linux-arm@npm:1.0.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-s390x",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linux-s390x@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-x64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linux-x64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linuxmusl-arm64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.0.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-libvips-linuxmusl-x64@npm:1.0.4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linux-arm64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linux-arm64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linux-arm",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linux-arm@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linux-s390x",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linux-s390x@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linux-x64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linux-x64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linuxmusl-arm64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linuxmusl-arm64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-linuxmusl-x64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-linuxmusl-x64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-wasm32",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-wasm32@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-win32-ia32",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-win32-ia32@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@img/sharp-win32-x64",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@img/sharp-win32-x64@npm:0.33.5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@isaacs/cliui",
+      "version": "8.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@isaacs/cliui@npm:8.0.2",
+      "checksum": "10c0/b1bf42535d49f11dc137f18d5e4e63a28c5569de438a221c369483731e9dac9fb797af554e8bf02b6192d1e5eba6e6402cf93900c3d0ac86391d00d04876789e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@isaacs/fs-minipass",
+      "version": "4.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@isaacs/fs-minipass@npm:4.0.1",
+      "checksum": "10c0/c25b6dc1598790d5b55c0947a9b7d111cfa92594db5296c3b907e2f533c033666f692a3939eadac17b1c7c40d362d0b0635dc874cbfe3e70db7c2b07cc97a5d2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@jridgewell/resolve-uri@npm:3.1.2",
+      "checksum": "10c0/d502e6fb516b35032331406d4e962c21fe77cdf1cbdb49c6142bcbd9e30507094b18972778a6e27cbad756209cfe34b1a27729e6fa08a2eb92b33943f680cf1e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@jridgewell/sourcemap-codec@npm:1.5.5",
+      "checksum": "10c0/f9e538f302b63c0ebc06eecb1dd9918dd4289ed36147a0ddce35d6ea4d7ebbda243cda7b2213b6a5e1d8087a298d5cf630fb2bd39329cdecb82017023f6081a0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.9",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@jridgewell/trace-mapping@npm:0.3.9",
+      "checksum": "10c0/fa425b606d7c7ee5bfa6a31a7b050dd5814b4082f318e0e4190f991902181b4330f43f4805db1dd4f2433fd0ed9cc7a7b9c2683f1deeab1df1b0a98b1e24055b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@npmcli/agent",
+      "version": "3.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@npmcli/agent@npm:3.0.0",
+      "checksum": "10c0/efe37b982f30740ee77696a80c196912c274ecd2cb243bc6ae7053a50c733ce0f6c09fda085145f33ecf453be19654acca74b69e81eaad4c90f00ccffe2f9271",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@npmcli/fs",
+      "version": "4.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@npmcli/fs@npm:4.0.0",
+      "checksum": "10c0/c90935d5ce670c87b6b14fab04a965a3b8137e585f8b2a6257263bd7f97756dd736cb165bb470e5156a9e718ecd99413dccc54b1138c1a46d6ec7cf325982fe5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@pkgjs/parseargs",
+      "version": "0.11.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@pkgjs/parseargs@npm:0.11.0",
+      "checksum": "10c0/5bd7576bb1b38a47a7fc7b51ac9f38748e772beebc56200450c4a817d712232b8f1d3ef70532c80840243c657d491cf6a6be1e3a214cff907645819fdc34aadd",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@poppinss/colors",
+      "version": "4.1.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@poppinss/colors@npm:4.1.5",
+      "checksum": "10c0/e9d5c9e9a8c1eb7cd37e9b431bda7b7573476be7395123b26815d758f38ca93db0ba62bb2831281f4f04a6e1620b4d4f9377268d32c61c2c9f6599a02c2112b7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@poppinss/dumper",
+      "version": "0.6.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@poppinss/dumper@npm:0.6.5",
+      "checksum": "10c0/7a0916fe4ce543cac1e61f09218e5c88b903ad0d853301b790686c772b7f5c595a04beccbf13172e0c77dc64b132b27ad438b888816fd7f6128c816290f9dc1f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@poppinss/exception",
+      "version": "1.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@poppinss/exception@npm:1.2.2",
+      "checksum": "10c0/b14d1e3d532230f58238231fce6ba3bf51dab50d4ec015f3192f04320be1d692eadd831a8d437e2fc345787c96350104149fd9920264362bca143d04ec03bc4e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-android-arm-eabi",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-android-arm-eabi@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-android-arm64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-android-arm64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-darwin-arm64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-darwin-arm64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-darwin-x64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-darwin-x64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-arm64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-freebsd-arm64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-x64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-freebsd-x64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-arm-gnueabihf@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-arm-musleabihf@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-arm64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-arm64-musl@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-loong64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-ppc64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-riscv64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-riscv64-musl@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-s390x-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-x64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-linux-x64-musl@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-openharmony-arm64",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-openharmony-arm64@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-win32-arm64-msvc@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-win32-ia32-msvc@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-win32-x64-gnu@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@rollup/rollup-win32-x64-msvc@npm:4.53.2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@sindresorhus/is",
+      "version": "7.1.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@sindresorhus/is@npm:7.1.1",
+      "checksum": "10c0/96f021b8c5680e0687ceba5619c2e56fe6b089b190b3149280a1e418e6315c66839e3f1519cf1c89f7a888b5a0017a0ef1db17436d783ee398b7d5a515caa3ef",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "version": "1.2.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@speed-highlight/core@npm:1.2.12",
+      "checksum": "10c0/37613c7a031af3b239282cc09211cefc1c9e164df07110520d2116ae7b4741512c1905bf1e011706ee2e652cef24df834f2068c4c4fff71e0257ec22fa655ff2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@standard-schema/spec",
+      "version": "1.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@standard-schema/spec@npm:1.0.0",
+      "checksum": "10c0/a1ab9a8bdc09b5b47aa8365d0e0ec40cc2df6437be02853696a0e377321653b0d3ac6f079a8c67d5ddbe9821025584b1fb71d9cc041a6666a96f1fadf2ece15f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/bun",
+      "version": "1.3.2",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^1.3.2",
+      "resolution": "@types/bun@npm:1.3.2",
+      "checksum": "10c0/1432d097d0cf635ec86538e96929d7f1f1164d465229ee011498344b5a598b51cfe48a471e24f19e92881ee4dee860115986aeed5a636c128b0d99a0bcbd4019",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/chai",
+      "version": "5.2.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@types/chai@npm:5.2.3",
+      "checksum": "10c0/e0ef1de3b6f8045a5e473e867c8565788c444271409d155588504840ad1a53611011f85072188c2833941189400228c1745d78323dac13fcede9c2b28bacfb2f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/deep-eql",
+      "version": "4.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@types/deep-eql@npm:4.0.2",
+      "checksum": "10c0/bf3f811843117900d7084b9d0c852da9a044d12eb40e6de73b552598a6843c21291a8a381b0532644574beecd5e3491c5ff3a0365ab86b15d59862c025384844",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@types/estree@npm:1.0.8",
+      "checksum": "10c0/39d34d1afaa338ab9763f37ad6066e3f349444f9052b9676a7cc0252ef9485a41c6d81c9c4e0d26e9077993354edf25efc853f3224dd4b447175ef62bdcc86a5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.7",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@types/estree@npm:1.0.7",
+      "checksum": "10c0/be815254316882f7c40847336cd484c3bc1c3e34f710d197160d455dc9d6d050ffbf4c3bc76585dba86f737f020ab20bdb137ebe0e9116b0c86c7c0342221b8c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@types/node",
+      "version": "24.9.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@types/node@npm:24.9.1",
+      "checksum": "10c0/c52f8168080ef9a7c3dc23d8ac6061fab5371aad89231a0f6f4c075869bc3de7e89b075b1f3e3171d9e5143d0dda1807c3dab8e32eac6d68f02e7480e7e78576",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/expect",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/expect@npm:4.0.8",
+      "checksum": "10c0/0d80695c9cfdae33eafbb39bd6bac99baa117127191e50b907544a3dc7e52c8d7d57ff7f24c88960097c71c07bf7d0babefd0f8dd8706adcfb70cdecf1128f79",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/mocker",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/mocker@npm:4.0.8",
+      "checksum": "10c0/a73a3e801cd3a57efada45603abd3982aa3b22bd5011be9255a28f4e690509ea09a323120e7f6b993eb32d4eb7f7411a466eba53f1f3f2462ee908552ea0a395",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/pretty-format",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/pretty-format@npm:4.0.8",
+      "checksum": "10c0/04df23f459f30026ea3e99940459d21bd8db3d5fa2cf111a8125ba29af847de9f13094ee1b35f241bb5ac9cb7a683cee584849b6d966996445e1e57c5f81c96c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/runner",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/runner@npm:4.0.8",
+      "checksum": "10c0/db4d51aee7a5bada9f97a0c8fc40b2ed0f301212ab2be28a024fcee1fa442393a933df820311d96bb42763a33ef1873e8ced470377dfea3af6304eed59f09d02",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/snapshot",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/snapshot@npm:4.0.8",
+      "checksum": "10c0/1764d0e5aeab755710f4dc9e29e80dcaef310a7be9b48f6fde6344b3af34a1107bcab0a57ef1e1ae3e963e4b89affb5b9752618bec83b44033e8659152b664ce",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/spy",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/spy@npm:4.0.8",
+      "checksum": "10c0/357b3ebc10421d9de34a3c20ff898fb13e1df6e484671c3043949e83ea4263f2442bc636f9b6eb5e44395229422242ec4bc62fd277a1de5b346c01ab79a95d4a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "@vitest/utils",
+      "version": "4.0.8",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "@vitest/utils@npm:4.0.8",
+      "checksum": "10c0/384e5db47a89e63143c335bf644d9be6e0a7f7555ed368837b9497dda20e080fcaa0c5b1c9bd8a9b49478d2b8dcfeb31be2bfb9fe7a5590f1453cbf372906436",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "abbrev",
+      "version": "3.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "abbrev@npm:3.0.1",
+      "checksum": "10c0/21ba8f574ea57a3106d6d35623f2c4a9111d9ee3e9a5be47baed46ec2457d2eac46e07a5c4a60186f88cb98abbe3e24f2d4cca70bc2b12f1692523e2209a9ccf",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "acorn-walk",
+      "version": "8.3.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "acorn-walk@npm:8.3.2",
+      "checksum": "10c0/7e2a8dad5480df7f872569b9dccff2f3da7e65f5353686b1d6032ab9f4ddf6e3a2cb83a9b52cf50b1497fd522154dda92f0abf7153290cc79cd14721ff121e52",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "acorn",
+      "version": "8.14.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "acorn@npm:8.14.0",
+      "checksum": "10c0/6d4ee461a7734b2f48836ee0fbb752903606e576cc100eb49340295129ca0b452f3ba91ddd4424a1d4406a98adfb2ebb6bd0ff4c49d7a0930c10e462719bbfd7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "agent-base@npm:7.1.4",
+      "checksum": "10c0/c2c9ab7599692d594b6a161559ada307b7a624fa4c7b03e3afdb5a5e31cd0e53269115b620fcab024c5ac6a6f37fa5eb2e004f076ad30f5f7e6b8b671f7b35fe",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ansi-regex@npm:5.0.1",
+      "checksum": "10c0/9a64bb8627b434ba9327b60c027742e5d17ac69277960d041898596271d992d4d52ba7267a63ca10232e29f6107fc8a835f6ce8d719b88c5f8493f8254813737",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ansi-regex",
+      "version": "6.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ansi-regex@npm:6.2.2",
+      "checksum": "10c0/05d4acb1d2f59ab2cf4b794339c7b168890d44dda4bf0ce01152a8da0213aca207802f930442ce8cd22d7a92f44907664aac6508904e75e038fa944d2601b30f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ansi-styles@npm:4.3.0",
+      "checksum": "10c0/895a23929da416f2bd3de7e9cb4eabd340949328ab85ddd6e484a637d8f6820d485f53933446f5291c3b760cbc488beb8e88573dd0f9c7daf83dccc8fe81b041",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ansi-styles",
+      "version": "6.2.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ansi-styles@npm:6.2.3",
+      "checksum": "10c0/23b8a4ce14e18fb854693b95351e286b771d23d8844057ed2e7d083cd3e708376c3323707ec6a24365f7d7eda3ca00327fe04092e29e551499ec4c8b7bfac868",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "assertion-error",
+      "version": "2.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "assertion-error@npm:2.0.1",
+      "checksum": "10c0/bbbcb117ac6480138f8c93cf7f535614282dea9dc828f540cdece85e3c665e8f78958b96afac52f29ff883c72638e6a87d469ecc9fe5bc902df03ed24a55dba8",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "balanced-match@npm:1.0.2",
+      "checksum": "10c0/9308baf0a7e4838a82bbfd11e01b1cb0f0cf2893bc1676c27c2a8c0e70cbae1c59120c3268517a8ae7fb6376b4639ef81ca22582611dbee4ed28df945134aaee",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "birpc",
+      "version": "0.2.14",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "birpc@npm:0.2.14",
+      "checksum": "10c0/1acff3dab8c089410982ab086f7bb788840e51ef38ae68967962782df58f044ec2dddf4f9cc8027a4813a6ea7f8721a3ff0a1ac25ac4faff1dacea2cc3670039",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "blake3-wasm",
+      "version": "2.1.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "blake3-wasm@npm:2.1.5",
+      "checksum": "10c0/5dc729d8e3a9d1d7ab016b36cdda264a327ada0239716df48435163e11d2bf6df25d6e421655a1f52649098ae49555268a654729b7d02768f77c571ab37ef814",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "brace-expansion",
+      "version": "2.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "brace-expansion@npm:2.0.2",
+      "checksum": "10c0/6d117a4c793488af86b83172deb6af143e94c17bc53b0b3cec259733923b4ca84679d506ac261f4ba3c7ed37c46018e2ff442f9ce453af8643ecd64f4a54e6cf",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "bun-types",
+      "version": "1.3.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "bun-types@npm:1.3.2",
+      "checksum": "10c0/ee78b88b1ed4a3dc2b885fe1a52dd65ca1afaa10ed14094de93b85921db745e64516b123cc7ba69859e3b102eca5e0d2f63a1d2cb1b4f26eb2a5b93e47715124",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "cacache",
+      "version": "19.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "cacache@npm:19.0.1",
+      "checksum": "10c0/01f2134e1bd7d3ab68be851df96c8d63b492b1853b67f2eecb2c37bb682d37cb70bb858a16f2f0554d3c0071be6dfe21456a1ff6fa4b7eed996570d6a25ffe9c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "chai",
+      "version": "6.2.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "chai@npm:6.2.0",
+      "checksum": "10c0/a4b7d7f5907187e09f1847afa838d6d1608adc7d822031b7900813c4ed5d9702911ac2468bf290676f22fddb3d727b1be90b57c1d0a69b902534ee29cdc6ff8a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "chownr",
+      "version": "3.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "chownr@npm:3.0.0",
+      "checksum": "10c0/43925b87700f7e3893296c8e9c56cc58f926411cce3a6e5898136daaf08f08b9a8eb76d37d3267e707d0dcc17aed2e2ebdf5848c0c3ce95cf910a919935c1b10",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "cjs-module-lexer",
+      "version": "1.4.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "cjs-module-lexer@npm:1.4.3",
+      "checksum": "10c0/076b3af85adc4d65dbdab1b5b240fe5b45d44fcf0ef9d429044dd94d19be5589376805c44fb2d4b3e684e5fe6a9b7cf3e426476a6507c45283c5fc6ff95240be",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "color-convert@npm:2.0.1",
+      "checksum": "10c0/37e1150172f2e311fe1b2df62c6293a342ee7380da7b9cfdba67ea539909afbd74da27033208d01d6d5cfc65ee7868a22e18d7e7648e004425441c0f8a15a7d7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "color-name@npm:1.1.4",
+      "checksum": "10c0/a1a3f914156960902f46f7f56bc62effc6c94e84b2cae157a526b1c1f74b677a47ec602bf68a61abfa2b42d15b7c5651c6dbe72a43af720bc588dff885b10f95",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "color-string",
+      "version": "1.9.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "color-string@npm:1.9.1",
+      "checksum": "10c0/b0bfd74c03b1f837f543898b512f5ea353f71630ccdd0d66f83028d1f0924a7d4272deb278b9aef376cacf1289b522ac3fb175e99895283645a2dc3a33af2404",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "color",
+      "version": "4.2.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "color@npm:4.2.3",
+      "checksum": "10c0/7fbe7cfb811054c808349de19fb380252e5e34e61d7d168ec3353e9e9aacb1802674bddc657682e4e9730c2786592a4de6f8283e7e0d3870b829bb0b7b2f6118",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "cookie",
+      "version": "1.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "cookie@npm:1.0.2",
+      "checksum": "10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "cross-spawn@npm:7.0.6",
+      "checksum": "10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "debug@npm:4.4.3",
+      "checksum": "10c0/d79136ec6c83ecbefd0f6a5593da6a9c91ec4d7ddc4b54c883d6e71ec9accb5f67a1a5e96d00a328196b5b5c86d365e98d8a3a70856aaf16b4e7b1985e67f5a6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "detect-libc@npm:2.1.2",
+      "checksum": "10c0/acc675c29a5649fa1fb6e255f993b8ee829e510b6b56b0910666949c80c364738833417d0edb5f90e4e46be17228b0f2b66a010513984e18b15deeeac49369c4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "devalue",
+      "version": "5.4.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "devalue@npm:5.4.2",
+      "checksum": "10c0/bae1e7f3d9a5d2969d50479169d56e515f55402d544aaf3cefc1f6f916271df36a7fe163560937089898f75fdb687914aa1fe97fd6f7b5624d1b3f71643b830b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "eastasianwidth",
+      "version": "0.2.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "eastasianwidth@npm:0.2.0",
+      "checksum": "10c0/26f364ebcdb6395f95124fda411f63137a4bfb5d3a06453f7f23dfe52502905bd84e0488172e0f9ec295fdc45f05c23d5d91baf16bd26f0fe9acd777a188dc39",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "emoji-regex@npm:8.0.0",
+      "checksum": "10c0/b6053ad39951c4cf338f9092d7bfba448cdfd46fe6a2a034700b149ac9ffbc137e361cbd3c442297f86bed2e5f7576c1b54cc0a6bf8ef5106cc62f496af35010",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "emoji-regex",
+      "version": "9.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "emoji-regex@npm:9.2.2",
+      "checksum": "10c0/af014e759a72064cf66e6e694a7fc6b0ed3d8db680427b021a89727689671cefe9d04151b2cad51dbaf85d5ba790d061cd167f1cf32eb7b281f6368b3c181639",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "encoding",
+      "version": "0.1.13",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "encoding@npm:0.1.13",
+      "checksum": "10c0/36d938712ff00fe1f4bac88b43bcffb5930c1efa57bbcdca9d67e1d9d6c57cfb1200fb01efe0f3109b2ce99b231f90779532814a81370a1bd3274a0f58585039",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "env-paths",
+      "version": "2.2.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "env-paths@npm:2.2.1",
+      "checksum": "10c0/285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "err-code",
+      "version": "2.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "err-code@npm:2.0.3",
+      "checksum": "10c0/b642f7b4dd4a376e954947550a3065a9ece6733ab8e51ad80db727aaae0817c2e99b02a97a3d6cecc648a97848305e728289cf312d09af395403a90c9d4d8a66",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "error-stack-parser-es",
+      "version": "1.0.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "error-stack-parser-es@npm:1.0.5",
+      "checksum": "10c0/040665eb87a42fe068c0da501bc258f3d15d3a03963c0723d7a2741e251d400c9776a52d2803afdc5709def99554cdb5a5d99c203c7eaf4885d3fbc217e2e8f7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "es-module-lexer",
+      "version": "1.7.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "es-module-lexer@npm:1.7.0",
+      "checksum": "10c0/4c935affcbfeba7fb4533e1da10fa8568043df1e3574b869385980de9e2d475ddc36769891936dbb07036edb3c3786a8b78ccf44964cd130dedc1f2c984b6c7b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.25.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "esbuild@npm:0.25.4",
+      "checksum": "10c0/db9f51248f0560bc46ab219461d338047617f6caf373c95f643b204760bdfa10c95b48cfde948949f7e509599ae4ab61c3f112092a3534936c6abfb800c565b0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.25.12",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "esbuild@npm:0.25.12",
+      "checksum": "10c0/c205357531423220a9de8e1e6c6514242bc9b1666e762cd67ccdf8fdfdc3f1d0bd76f8d9383958b97ad4c953efdb7b6e8c1f9ca5951cd2b7c5235e8755b34a6b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "estree-walker",
+      "version": "3.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "estree-walker@npm:3.0.3",
+      "checksum": "10c0/c12e3c2b2642d2bcae7d5aa495c60fa2f299160946535763969a1c83fc74518ffa9c2cd3a8b69ac56aea547df6a8aac25f729a342992ef0bbac5f1c73e78995d",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "exit-hook",
+      "version": "2.2.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "exit-hook@npm:2.2.1",
+      "checksum": "10c0/0803726d1b60aade6afd10c73e5a7e1bf256ac9bee78362a88e91a4f735e8c67899f2853ddc613072c05af07bbb067a9978a740e614db1aeef167d50c6dc5c09",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "expect-type",
+      "version": "1.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "expect-type@npm:1.2.2",
+      "checksum": "10c0/6019019566063bbc7a690d9281d920b1a91284a4a093c2d55d71ffade5ac890cf37a51e1da4602546c4b56569d2ad2fc175a2ccee77d1ae06cb3af91ef84f44b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "exponential-backoff",
+      "version": "3.1.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "exponential-backoff@npm:3.1.3",
+      "checksum": "10c0/77e3ae682b7b1f4972f563c6dbcd2b0d54ac679e62d5d32f3e5085feba20483cf28bd505543f520e287a56d4d55a28d7874299941faf637e779a1aa5994d1267",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "fdir@npm:6.5.0",
+      "checksum": "10c0/e345083c4306b3aed6cb8ec551e26c36bab5c511e99ea4576a16750ddc8d3240e63826cc624f5ae17ad4dc82e68a253213b60d556c11bfad064b7607847ed07f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "foreground-child",
+      "version": "3.3.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "foreground-child@npm:3.3.1",
+      "checksum": "10c0/8986e4af2430896e65bc2788d6679067294d6aee9545daefc84923a0a4b399ad9c7a3ea7bd8c0b2b80fdf4a92de4c69df3f628233ff3224260e9c1541a9e9ed3",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "fs-minipass",
+      "version": "3.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "fs-minipass@npm:3.0.3",
+      "checksum": "10c0/63e80da2ff9b621e2cb1596abcb9207f1cf82b968b116ccd7b959e3323144cce7fb141462200971c38bbf2ecca51695069db45265705bed09a7cd93ae5b89f94",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "fsevents@npm:2.3.3",
+      "checksum": "10c0/a1f0c44595123ed717febbc478aa952e47adfc28e2092be66b8ab1635147254ca6cfe1df792a8997f22716d4cbafc73309899ff7bfac2ac3ad8cf2e4ecc3ec60",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "fsevents@patch:fsevents",
+      "version": "2.3.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "fsevents@patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "glob-to-regexp",
+      "version": "0.4.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "glob-to-regexp@npm:0.4.1",
+      "checksum": "10c0/0486925072d7a916f052842772b61c3e86247f0a80cc0deb9b5a3e8a1a9faad5b04fb6f58986a09f34d3e96cd2a22a24b7e9882fb1cf904c31e9a310de96c429",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "glob",
+      "version": "10.4.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "glob@npm:10.4.5",
+      "checksum": "10c0/19a9759ea77b8e3ca0a43c2f07ecddc2ad46216b786bb8f993c445aee80d345925a21e5280c7b7c6c59e860a0154b84e4b2b60321fea92cd3c56b4a7489f160e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "graceful-fs@npm:4.2.11",
+      "checksum": "10c0/386d011a553e02bc594ac2ca0bd6d9e4c22d7fa8cfbfc448a6d148c59ea881b092db9dbe3547ae4b88e55f1b01f7c4a2ecc53b310c042793e63aa44cf6c257f2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "hono",
+      "version": "4.10.5",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^4.10.5",
+      "resolution": "hono@npm:4.10.5",
+      "checksum": "10c0/c7a4b5f9c9ce50e15bca589f968f991181518a6f117579fd9558799540317743bb8f2a6a017b177f492bfaa68b0efae520a7693839ae7ad7a2bff952dbedecc0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "http-cache-semantics",
+      "version": "4.2.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "http-cache-semantics@npm:4.2.0",
+      "checksum": "10c0/45b66a945cf13ec2d1f29432277201313babf4a01d9e52f44b31ca923434083afeca03f18417f599c9ab3d0e7b618ceb21257542338b57c54b710463b4a53e37",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "http-proxy-agent@npm:7.0.2",
+      "checksum": "10c0/4207b06a4580fb85dd6dff521f0abf6db517489e70863dca1a0291daa7f2d3d2d6015a57bd702af068ea5cf9f1f6ff72314f5f5b4228d299c0904135d2aef921",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "https-proxy-agent@npm:7.0.6",
+      "checksum": "10c0/f729219bc735edb621fa30e6e84e60ee5d00802b8247aac0d7b79b0bd6d4b3294737a337b93b86a0bd9e68099d031858a39260c976dc14cdbba238ba1f8779ac",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.6.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "iconv-lite@npm:0.6.3",
+      "checksum": "10c0/98102bc66b33fcf5ac044099d1257ba0b7ad5e3ccd3221f34dd508ab4070edff183276221684e1e0555b145fce0850c9f7d2b60a9fcac50fbb4ea0d6e845a3b1",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "imurmurhash@npm:0.1.4",
+      "checksum": "10c0/8b51313850dd33605c6c9d3fd9638b714f4c4c40250cff658209f30d40da60f78992fb2df5dabee4acf589a6a82bbc79ad5486550754bd9ec4e3fc0d4a57d6a6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ip-address",
+      "version": "10.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ip-address@npm:10.0.1",
+      "checksum": "10c0/1634d79dae18394004775cb6d699dc46b7c23df6d2083164025a2b15240c1164fccde53d0e08bd5ee4fc53913d033ab6b5e395a809ad4b956a940c446e948843",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "is-arrayish",
+      "version": "0.3.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "is-arrayish@npm:0.3.4",
+      "checksum": "10c0/1fa672a2f0bedb74154440310f616c0b6e53a95cf0625522ae050f06626d1cabd1a3d8085c882dc45c61ad0e7df2529aff122810b3b4a552880bf170d6df94e0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "is-fullwidth-code-point@npm:3.0.0",
+      "checksum": "10c0/bb11d825e049f38e04c06373a8d72782eee0205bda9d908cc550ccb3c59b99d750ff9537982e01733c1c94a58e35400661f57042158ff5e8f3e90cf936daf0fc",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "isexe@npm:2.0.0",
+      "checksum": "10c0/228cfa503fadc2c31596ab06ed6aa82c9976eec2bfd83397e7eaf06d0ccf42cd1dfd6743bf9aeb01aebd4156d009994c5f76ea898d2832c1fe342da923ca457d",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "isexe",
+      "version": "3.1.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "isexe@npm:3.1.1",
+      "checksum": "10c0/9ec257654093443eb0a528a9c8cbba9c0ca7616ccb40abd6dde7202734d96bb86e4ac0d764f0f8cd965856aacbff2f4ce23e730dc19dfb41e3b0d865ca6fdcc7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "jackspeak",
+      "version": "3.4.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "jackspeak@npm:3.4.3",
+      "checksum": "10c0/6acc10d139eaefdbe04d2f679e6191b3abf073f111edf10b1de5302c97ec93fffeb2fdd8681ed17f16268aa9dd4f8c588ed9d1d3bffbbfa6e8bf897cbb3149b9",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "kleur",
+      "version": "4.1.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "kleur@npm:4.1.5",
+      "checksum": "10c0/e9de6cb49657b6fa70ba2d1448fd3d691a5c4370d8f7bbf1c2f64c24d461270f2117e1b0afe8cb3114f13bbd8e51de158c2a224953960331904e636a5e4c0f2a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "lru-cache",
+      "version": "10.4.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "lru-cache@npm:10.4.3",
+      "checksum": "10c0/ebd04fbca961e6c1d6c0af3799adcc966a1babe798f685bb84e6599266599cd95d94630b10262f5424539bc4640107e8a33aa28585374abf561d30d16f4b39fb",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "magic-string",
+      "version": "0.30.21",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "magic-string@npm:0.30.21",
+      "checksum": "10c0/299378e38f9a270069fc62358522ddfb44e94244baa0d6a8980ab2a9b2490a1d03b236b447eee309e17eb3bddfa482c61259d47960eb018a904f0ded52780c4a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "make-fetch-happen",
+      "version": "14.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "make-fetch-happen@npm:14.0.3",
+      "checksum": "10c0/c40efb5e5296e7feb8e37155bde8eb70bc57d731b1f7d90e35a092fde403d7697c56fb49334d92d330d6f1ca29a98142036d6480a12681133a0a1453164cb2f0",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "mime",
+      "version": "3.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "mime@npm:3.0.0",
+      "checksum": "10c0/402e792a8df1b2cc41cb77f0dcc46472b7944b7ec29cb5bbcd398624b6b97096728f1239766d3fdeb20551dd8d94738344c195a6ea10c4f906eb0356323b0531",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "miniflare",
+      "version": "4.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "miniflare@npm:4.20251109.0",
+      "checksum": "10c0/64a4a7f9659faf6cc8c8a966caddad9616963502fe931797d3a42c2de4047a10c3537e2c6652ab95b5ee7157d0afad576c380cc8b753f0a136aa57dac8760427",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minimatch",
+      "version": "9.0.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minimatch@npm:9.0.5",
+      "checksum": "10c0/de96cf5e35bdf0eab3e2c853522f98ffbe9a36c37797778d2665231ec1f20a9447a7e567cb640901f89e4daaa95ae5d70c65a9e8aa2bb0019b6facbc3c0575ed",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass-collect",
+      "version": "2.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass-collect@npm:2.0.1",
+      "checksum": "10c0/5167e73f62bb74cc5019594709c77e6a742051a647fe9499abf03c71dca75515b7959d67a764bdc4f8b361cf897fbf25e2d9869ee039203ed45240f48b9aa06e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass-fetch",
+      "version": "4.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass-fetch@npm:4.0.1",
+      "checksum": "10c0/a3147b2efe8e078c9bf9d024a0059339c5a09c5b1dded6900a219c218cc8b1b78510b62dae556b507304af226b18c3f1aeb1d48660283602d5b6586c399eed5c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass-flush",
+      "version": "1.0.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass-flush@npm:1.0.5",
+      "checksum": "10c0/2a51b63feb799d2bb34669205eee7c0eaf9dce01883261a5b77410c9408aa447e478efd191b4de6fc1101e796ff5892f8443ef20d9544385819093dbb32d36bd",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass-pipeline",
+      "version": "1.2.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass-pipeline@npm:1.2.4",
+      "checksum": "10c0/cbda57cea20b140b797505dc2cac71581a70b3247b84480c1fed5ca5ba46c25ecc25f68bfc9e6dcb1a6e9017dab5c7ada5eab73ad4f0a49d84e35093e0c643f2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass-sized",
+      "version": "1.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass-sized@npm:1.0.3",
+      "checksum": "10c0/298f124753efdc745cfe0f2bdfdd81ba25b9f4e753ca4a2066eb17c821f25d48acea607dfc997633ee5bf7b6dfffb4eee4f2051eb168663f0b99fad2fa4829cb",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass",
+      "version": "3.3.6",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass@npm:3.3.6",
+      "checksum": "10c0/a114746943afa1dbbca8249e706d1d38b85ed1298b530f5808ce51f8e9e941962e2a5ad2e00eae7dd21d8a4aae6586a66d4216d1a259385e9d0358f0c1eba16c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minipass",
+      "version": "7.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minipass@npm:7.1.2",
+      "checksum": "10c0/b0fd20bb9fb56e5fa9a8bfac539e8915ae07430a619e4b86ff71f5fc757ef3924b23b2c4230393af1eda647ed3d75739e4e0acb250a6b1eb277cf7f8fe449557",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "minizlib",
+      "version": "3.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "minizlib@npm:3.1.0",
+      "checksum": "10c0/5aad75ab0090b8266069c9aabe582c021ae53eb33c6c691054a13a45db3b4f91a7fb1bd79151e6b4e9e9a86727b522527c0a06ec7d45206b745d54cd3097bcec",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ms@npm:2.1.3",
+      "checksum": "10c0/d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.11",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "nanoid@npm:3.3.11",
+      "checksum": "10c0/40e7f70b3d15f725ca072dfc4f74e81fcf1fbb02e491cf58ac0c79093adc9b0a73b152bcde57df4b79cd097e13023d7504acb38404a4da7bc1cd8e887b82fe0b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "negotiator",
+      "version": "1.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "negotiator@npm:1.0.0",
+      "checksum": "10c0/4c559dd52669ea48e1914f9d634227c561221dd54734070791f999c52ed0ff36e437b2e07d5c1f6e32909fc625fe46491c16e4a8f0572567d4dd15c3a4fda04b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "node-gyp",
+      "version": "11.5.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "node-gyp@npm:11.5.0",
+      "checksum": "10c0/31ff49586991b38287bb15c3d529dd689cfc32f992eed9e6997b9d712d5d21fe818a8b1bbfe3b76a7e33765c20210c5713212f4aa329306a615b87d8a786da3a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "nopt",
+      "version": "8.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "nopt@npm:8.1.0",
+      "checksum": "10c0/62e9ea70c7a3eb91d162d2c706b6606c041e4e7b547cbbb48f8b3695af457dd6479904d7ace600856bf923dd8d1ed0696f06195c8c20f02ac87c1da0e1d315ef",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "otto-app",
+      "version": "0.0.0-use.local",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "otto-app@workspace:.",
+      "languageName": "unknown",
+      "linkType": "soft"
+    },
+    {
+      "name": "p-map",
+      "version": "7.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "p-map@npm:7.0.3",
+      "checksum": "10c0/46091610da2b38ce47bcd1d8b4835a6fa4e832848a6682cf1652bc93915770f4617afc844c10a77d1b3e56d2472bb2d5622353fa3ead01a7f42b04fc8e744a5c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "package-json-from-dist",
+      "version": "1.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "package-json-from-dist@npm:1.0.1",
+      "checksum": "10c0/62ba2785eb655fec084a257af34dbe24292ab74516d6aecef97ef72d4897310bc6898f6c85b5cd22770eaa1ce60d55a0230e150fb6a966e3ecd6c511e23d164b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "path-key@npm:3.1.1",
+      "checksum": "10c0/748c43efd5a569c039d7a00a03b58eecd1d75f3999f5a28303d75f521288df4823bc057d8784eb72358b2895a05f29a070bc9f1f17d28226cc4e62494cc58c4c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "path-scurry",
+      "version": "1.11.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "path-scurry@npm:1.11.1",
+      "checksum": "10c0/32a13711a2a505616ae1cc1b5076801e453e7aae6ac40ab55b388bb91b9d0547a52f5aaceff710ea400205f18691120d4431e520afbe4266b836fadede15872d",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "6.3.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "path-to-regexp@npm:6.3.0",
+      "checksum": "10c0/73b67f4638b41cde56254e6354e46ae3a2ebc08279583f6af3d96fe4664fc75788f74ed0d18ca44fa4a98491b69434f9eee73b97bb5314bd1b5adb700f5c18d6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "pathe",
+      "version": "2.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "pathe@npm:2.0.3",
+      "checksum": "10c0/c118dc5a8b5c4166011b2b70608762e260085180bb9e33e80a50dcdb1e78c010b1624f4280c492c92b05fc276715a4c357d1f9edc570f8f1b3d90b6839ebaca1",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "picocolors@npm:1.1.1",
+      "checksum": "10c0/e2e3e8170ab9d7c7421969adaa7e1b31434f789afb9b3f115f6b96d91945041ac3ceb02e9ec6fe6510ff036bcc0bf91e69a1772edc0b707e12b19c0f2d6bcf58",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "picomatch@npm:4.0.3",
+      "checksum": "10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.6",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "postcss@npm:8.5.6",
+      "checksum": "10c0/5127cc7c91ed7a133a1b7318012d8bfa112da9ef092dddf369ae699a1f10ebbd89b1b9f25f3228795b84585c72aabd5ced5fc11f2ba467eedf7b081a66fad024",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "proc-log",
+      "version": "5.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "proc-log@npm:5.0.0",
+      "checksum": "10c0/bbe5edb944b0ad63387a1d5b1911ae93e05ce8d0f60de1035b218cdcceedfe39dbd2c697853355b70f1a090f8f58fe90da487c85216bf9671f9499d1a897e9e3",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "promise-retry",
+      "version": "2.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "promise-retry@npm:2.0.1",
+      "checksum": "10c0/9c7045a1a2928094b5b9b15336dcd2a7b1c052f674550df63cc3f36cd44028e5080448175b6f6ca32b642de81150f5e7b1a98b728f15cb069f2dd60ac2616b96",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "retry",
+      "version": "0.12.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "retry@npm:0.12.0",
+      "checksum": "10c0/59933e8501727ba13ad73ef4a04d5280b3717fd650408460c987392efe9d7be2040778ed8ebe933c5cbd63da3dcc37919c141ef8af0a54a6e4fca5a2af177bfe",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "rollup",
+      "version": "4.53.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "rollup@npm:4.53.2",
+      "checksum": "10c0/427216da71c1ce7fefb0bef75f94c301afd858ac27e35898e098c2da5977325fa54c2edda867caf9675c8abfa8d8d94efa99c482fa04f5cd91f3a740112d4f4f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "safer-buffer@npm:2.1.2",
+      "checksum": "10c0/7e3c8b2e88a1841c9671094bbaeebd94448111dd90a81a1f606f3f67708a6ec57763b3b47f06da09fc6054193e0e6709e77325415dc8422b04497a8070fa02d4",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "semver",
+      "version": "7.7.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "semver@npm:7.7.3",
+      "checksum": "10c0/4afe5c986567db82f44c8c6faef8fe9df2a9b1d98098fc1721f57c696c4c21cebd572f297fc21002f81889492345b8470473bc6f4aff5fb032a6ea59ea2bc45e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "sharp",
+      "version": "0.33.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "sharp@npm:0.33.5",
+      "checksum": "10c0/6b81421ddfe6ee524d8d77e325c5e147fef22884e1c7b1656dfd89a88d7025894115da02d5f984261bf2e6daa16f98cadd1721c4ba408b4212b1d2a60f233484",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "shebang-command@npm:2.0.0",
+      "checksum": "10c0/a41692e7d89a553ef21d324a5cceb5f686d1f3c040759c50aab69688634688c5c327f26f3ecf7001ebfd78c01f3c7c0a11a7c8bfd0a8bc9f6240d4f40b224e4e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "shebang-regex@npm:3.0.0",
+      "checksum": "10c0/1dbed0726dd0e1152a92696c76c7f06084eb32a90f0528d11acd764043aacf76994b2fb30aa1291a21bd019d6699164d048286309a278855ee7bec06cf6fb690",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "siginfo",
+      "version": "2.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "siginfo@npm:2.0.0",
+      "checksum": "10c0/3def8f8e516fbb34cb6ae415b07ccc5d9c018d85b4b8611e3dc6f8be6d1899f693a4382913c9ed51a06babb5201639d76453ab297d1c54a456544acf5c892e34",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "signal-exit@npm:4.1.0",
+      "checksum": "10c0/41602dce540e46d599edba9d9860193398d135f7ff72cab629db5171516cfae628d21e7bfccde1bbfdf11c48726bc2a6d1a8fb8701125852fbfda7cf19c6aa83",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "simple-swizzle",
+      "version": "0.2.4",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "simple-swizzle@npm:0.2.4",
+      "checksum": "10c0/846c3fdd1325318d5c71295cfbb99bfc9edc4c8dffdda5e6e9efe30482bbcd32cf360fc2806f46ac43ff7d09bcfaff20337bb79f826f0e6a8e366efd3cdd7868",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "smart-buffer",
+      "version": "4.2.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "smart-buffer@npm:4.2.0",
+      "checksum": "10c0/a16775323e1404dd43fabafe7460be13a471e021637bc7889468eb45ce6a6b207261f454e4e530a19500cc962c4cc5348583520843b363f4193cee5c00e1e539",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "socks-proxy-agent",
+      "version": "8.0.5",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "socks-proxy-agent@npm:8.0.5",
+      "checksum": "10c0/5d2c6cecba6821389aabf18728325730504bf9bb1d9e342e7987a5d13badd7a98838cc9a55b8ed3cb866ad37cc23e1086f09c4d72d93105ce9dfe76330e9d2a6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "socks",
+      "version": "2.8.7",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "socks@npm:2.8.7",
+      "checksum": "10c0/2805a43a1c4bcf9ebf6e018268d87b32b32b06fbbc1f9282573583acc155860dc361500f89c73bfbb157caa1b4ac78059eac0ef15d1811eb0ca75e0bdadbc9d2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "source-map-js@npm:1.2.1",
+      "checksum": "10c0/7bda1fc4c197e3c6ff17de1b8b2c20e60af81b63a52cb32ec5a5d67a20a7d42651e2cb34ebe93833c5a2a084377e17455854fee3e21e7925c64a51b6a52b0faf",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ssri",
+      "version": "12.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ssri@npm:12.0.0",
+      "checksum": "10c0/caddd5f544b2006e88fa6b0124d8d7b28208b83c72d7672d5ade44d794525d23b540f3396108c4eb9280dcb7c01f0bef50682f5b4b2c34291f7c5e211fd1417d",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "stackback",
+      "version": "0.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "stackback@npm:0.0.2",
+      "checksum": "10c0/89a1416668f950236dd5ac9f9a6b2588e1b9b62b1b6ad8dff1bfc5d1a15dbf0aafc9b52d2226d00c28dffff212da464eaeebfc6b7578b9d180cef3e3782c5983",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "std-env",
+      "version": "3.10.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "std-env@npm:3.10.0",
+      "checksum": "10c0/1814927a45004d36dde6707eaf17552a546769bc79a6421be2c16ce77d238158dfe5de30910b78ec30d95135cc1c59ea73ee22d2ca170f8b9753f84da34c427f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "stoppable",
+      "version": "1.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "stoppable@npm:1.1.0",
+      "checksum": "10c0/ba91b65e6442bf6f01ce837a727ece597a977ed92a05cb9aea6bf446c5e0dcbccc28f31b793afa8aedd8f34baaf3335398d35f903938d5493f7fbe386a1e090e",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "string-width-cjs@npm:string-width",
+      "version": "4.2.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "string-width@npm:4.2.3",
+      "checksum": "10c0/1e525e92e5eae0afd7454086eed9c818ee84374bb80328fc41217ae72ff5f065ef1c9d7f72da41de40c75fa8bb3dee63d92373fd492c84260a552c636392a47b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "string-width",
+      "version": "5.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "string-width@npm:5.1.2",
+      "checksum": "10c0/ab9c4264443d35b8b923cbdd513a089a60de339216d3b0ed3be3ba57d6880e1a192b70ae17225f764d7adbf5994e9bb8df253a944736c15a0240eff553c678ca",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "strip-ansi-cjs@npm:strip-ansi",
+      "version": "6.0.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "strip-ansi@npm:6.0.1",
+      "checksum": "10c0/1ae5f212a126fe5b167707f716942490e3933085a5ff6c008ab97ab2f272c8025d3aa218b7bd6ab25729ca20cc81cddb252102f8751e13482a5199e873680952",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "strip-ansi",
+      "version": "7.1.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "strip-ansi@npm:7.1.2",
+      "checksum": "10c0/0d6d7a023de33368fd042aab0bf48f4f4077abdfd60e5393e73c7c411e85e1b3a83507c11af2e656188511475776215df9ca589b4da2295c9455cc399ce1858b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "supports-color",
+      "version": "10.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "supports-color@npm:10.2.2",
+      "checksum": "10c0/fb28dd7e0cdf80afb3f2a41df5e068d60c8b4f97f7140de2eaed5b42e075d82a0e980b20a2c0efd2b6d73cfacb55555285d8cc719fa0472220715aefeaa1da7c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tar",
+      "version": "7.5.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tar@npm:7.5.2",
+      "checksum": "10c0/a7d8b801139b52f93a7e34830db0de54c5aa45487c7cb551f6f3d44a112c67f1cb8ffdae856b05fd4f17b1749911f1c26f1e3a23bbe0279e17fd96077f13f467",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tinybench",
+      "version": "2.9.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tinybench@npm:2.9.0",
+      "checksum": "10c0/c3500b0f60d2eb8db65250afe750b66d51623057ee88720b7f064894a6cb7eb93360ca824a60a31ab16dab30c7b1f06efe0795b352e37914a9d4bad86386a20c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tinyexec",
+      "version": "0.3.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tinyexec@npm:0.3.2",
+      "checksum": "10c0/3efbf791a911be0bf0821eab37a3445c2ba07acc1522b1fa84ae1e55f10425076f1290f680286345ed919549ad67527d07281f1c19d584df3b74326909eb1f90",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.15",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tinyglobby@npm:0.2.15",
+      "checksum": "10c0/869c31490d0d88eedb8305d178d4c75e7463e820df5a9b9d388291daf93e8b1eb5de1dad1c1e139767e4269fe75f3b10d5009b2cc14db96ff98986920a186844",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tinyrainbow",
+      "version": "3.0.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tinyrainbow@npm:3.0.3",
+      "checksum": "10c0/1e799d35cd23cabe02e22550985a3051dc88814a979be02dc632a159c393a998628eacfc558e4c746b3006606d54b00bcdea0c39301133956d10a27aa27e988c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "tslib@npm:2.8.1",
+      "checksum": "10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^5.9.3",
+      "resolution": "typescript@npm:5.9.3",
+      "checksum": "10c0/6bd7552ce39f97e711db5aa048f6f9995b53f1c52f7d8667c1abdc1700c68a76a308f579cd309ce6b53646deb4e9a1be7c813a93baaf0a28ccd536a30270e1c5",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "typescript@patch:typescript",
+      "version": "5.9.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5",
+      "checksum": "10c0/ad09fdf7a756814dce65bc60c1657b40d44451346858eea230e10f2e95a289d9183b6e32e5c11e95acc0ccc214b4f36289dcad4bf1886b0adb84d711d336a430",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "undici-types",
+      "version": "7.16.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "undici-types@npm:7.16.0",
+      "checksum": "10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "undici",
+      "version": "7.14.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "undici@npm:7.14.0",
+      "checksum": "10c0/4beab6a5bfb89add9e90195aee6bc993708afbabad33bff7da791b5334a6e26a591c29938822d2fb8f69ae0ad8d580d64e03247b11157af9f820d5bd9f8f16e7",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "unenv",
+      "version": "2.0.0-rc.24",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "unenv@npm:2.0.0-rc.24",
+      "checksum": "10c0/e8556b4287fcf647f23db790eea2782cc79f182370718680e3aba4753d5fb7177abf5d6df489c8f74f7e3ad6cd554b8623cc01caf3e6f2d5548e69178adb1691",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "unique-filename",
+      "version": "4.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "unique-filename@npm:4.0.0",
+      "checksum": "10c0/38ae681cceb1408ea0587b6b01e29b00eee3c84baee1e41fd5c16b9ed443b80fba90c40e0ba69627e30855570a34ba8b06702d4a35035d4b5e198bf5a64c9ddc",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "unique-slug",
+      "version": "5.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "unique-slug@npm:5.0.0",
+      "checksum": "10c0/d324c5a44887bd7e105ce800fcf7533d43f29c48757ac410afd42975de82cc38ea2035c0483f4de82d186691bf3208ef35c644f73aa2b1b20b8e651be5afd293",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "vite",
+      "version": "7.2.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "vite@npm:7.2.2",
+      "checksum": "10c0/9c76ee441f8dbec645ddaecc28d1f9cf35670ffa91cff69af7b1d5081545331603f0b1289d437b2fa8dc43cdc77b4d96b5bd9c9aed66310f490cb1a06f9c814c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "vitest",
+      "version": "4.0.8",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "4.0.8",
+      "resolution": "vitest@npm:4.0.8",
+      "checksum": "10c0/9fa05e70168ef7098a4a441775024231faa12db2374429eeb1967e8338bd5a6a4cd25e555ac991d95d040544b42395a7425839324bb4ab124eaa80e5cf39db63",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "which@npm:2.0.2",
+      "checksum": "10c0/66522872a768b60c2a65a57e8ad184e5372f5b6a9ca6d5f033d4b0dc98aff63995655a7503b9c0a2598936f532120e81dd8cc155e2e92ed662a2b9377cc4374f",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "which",
+      "version": "5.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "which@npm:5.0.0",
+      "checksum": "10c0/e556e4cd8b7dbf5df52408c9a9dd5ac6518c8c5267c8953f5b0564073c66ed5bf9503b14d876d0e9c7844d4db9725fb0dcf45d6e911e17e26ab363dc3965ae7b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "why-is-node-running",
+      "version": "2.3.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "why-is-node-running@npm:2.3.0",
+      "checksum": "10c0/1cde0b01b827d2cf4cb11db962f3958b9175d5d9e7ac7361d1a7b0e2dc6069a263e69118bd974c4f6d0a890ef4eedfe34cf3d5167ec14203dbc9a18620537054",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "workerd",
+      "version": "1.20251109.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "workerd@npm:1.20251109.0",
+      "checksum": "10c0/36980d2096c88e83a44ac2dda2ab9dedf8cef467f3be891a0ea71f2222b7587d3425cf4e66b0dc0bda472ec61403e11177e00bf30845eb7a9d23a838c1b7baf2",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "wrangler",
+      "version": "4.47.0",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^4.47.0",
+      "resolution": "wrangler@npm:4.47.0",
+      "checksum": "10c0/93a4cdea601c631e064e7ed5b6008b8a34ab98b12940df779113befc404c6a846d8a8096769cfee80422dd21b757ebb7d0c41bfc42064d6b11f22b92342cb87c",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "wrap-ansi-cjs@npm:wrap-ansi",
+      "version": "7.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "wrap-ansi@npm:7.0.0",
+      "checksum": "10c0/d15fc12c11e4cbc4044a552129ebc75ee3f57aa9c1958373a4db0292d72282f54373b536103987a4a7594db1ef6a4f10acf92978f79b98c49306a4b58c77d4da",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "8.1.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "wrap-ansi@npm:8.1.0",
+      "checksum": "10c0/138ff58a41d2f877eae87e3282c0630fc2789012fc1af4d6bd626eeb9a2f9a65ca92005e6e69a75c7b85a68479fe7443c7dbe1eb8fbaa681a4491364b7c55c60",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "ws",
+      "version": "8.18.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "ws@npm:8.18.0",
+      "checksum": "10c0/25eb33aff17edcb90721ed6b0eb250976328533ad3cd1a28a274bd263682e7296a6591ff1436d6cbc50fa67463158b062f9d1122013b361cec99a05f84680e06",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "yallist",
+      "version": "4.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "yallist@npm:4.0.0",
+      "checksum": "10c0/2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "yallist",
+      "version": "5.0.0",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "yallist@npm:5.0.0",
+      "checksum": "10c0/a499c81ce6d4a1d260d4ea0f6d49ab4da09681e32c3f0472dee16667ed69d01dae63a3b81745a24bd78476ec4fcf856114cb4896ace738e01da34b2c42235416",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "youch-core",
+      "version": "0.3.3",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "youch-core@npm:0.3.3",
+      "checksum": "10c0/fe101a037a6cfaaa4e80e3d062ff33d4b087b65e3407e65220b453c9b2a66c87ea348a7da0239b61623d929d8fa0a9e139486eaa690ef5605bb49947a2fa82f6",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "youch",
+      "version": "4.1.0-beta.10",
+      "direct": false,
+      "scope": "unknown",
+      "resolution": "youch@npm:4.1.0-beta.10",
+      "checksum": "10c0/588d65aa5837a46c8473cf57a9129115383f57aad5899915d37005950decfefc66bec85b8a1262dbefd623a122c279095074655889317311a554f9c2e290a5b3",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "zod",
+      "version": "3.22.3",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^4.1.12",
+      "resolution": "zod@npm:3.22.3",
+      "checksum": "10c0/cb4b24aed7dec98552eb9042e88cbd645455bf2830e5704174d2da96f554dabad4630e3b4f6623e1b6562b9eaa43535a37b7f2011f29b8d8e9eabe1ddf3b656b",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "zod",
+      "version": "3.24.4",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^4.1.12",
+      "resolution": "zod@npm:3.24.4",
+      "checksum": "10c0/ab3112f017562180a41a0f83d870b333677f7d6b77f106696c56894567051b91154714a088149d8387a4f50806a2520efcb666f108cd384a35c236a191186d91",
+      "languageName": "node",
+      "linkType": "hard"
+    },
+    {
+      "name": "zod",
+      "version": "4.1.12",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^4.1.12",
+      "resolution": "zod@npm:4.1.12",
+      "checksum": "10c0/b64c1feb19e99d77075261eaf613e0b2be4dfcd3551eff65ad8b4f2a079b61e379854d066f7d447491fcf193f45babd8095551a9d47973d30b46b6d8e2c46774",
+      "languageName": "node",
+      "linkType": "hard"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "repo": "pnpm-v5.3-kit-prism-ssr-bug",
+  "packageManager": "pnpm",
+  "lockfile": "pnpm-lock.yaml",
+  "lockfileVersion": "5.3",
+  "packages": [
+    {
+      "name": "@rollup/pluginutils",
+      "version": "4.1.0",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-TrBhfJkFxA+ER+ew2U2/fHbebhLT/l/2pRk0hfj9KusXUuRXd2v0R58AfaZK9VXDQ4TogOSEmICVrQAA3zFnHQ==",
+      "engines": {
+        "node": ">= 8.0.0"
+      }
+    },
+    {
+      "name": "@sveltejs/kit",
+      "version": "1.0.0-next.123",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "next",
+      "integrity": "sha512-C9UZ5yYdU94hjpmwTPmDpCWphPc9RsSR4TxV67JM+SqDrSCMKx65JI3+goQQzY2ZHARUGukoc1+ijaRxW48AWQ==",
+      "engines": {
+        "node": "^12.20 || >=14.13"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "@sveltejs/vite-plugin-svelte",
+      "version": "1.0.0-next.12",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-cuyNkJ6leptfv+7qL/fWQ7EpGWdguosFOUI0z93oQUmFTcX7QxJ5h+QI3NQyktBzlKL/761L8BbG2hHNkVbLIQ==",
+      "engines": {
+        "node": "^12.20 || ^14.13.1 || >= 16"
+      }
+    },
+    {
+      "name": "asap",
+      "version": "2.0.6",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY="
+    },
+    {
+      "name": "change-emitter",
+      "version": "0.1.6",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-6LL+PX8at9aaMhma/5HqaTFAlRU="
+    },
+    {
+      "name": "cheap-watch",
+      "version": "1.0.3",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-xC5CruMhLzjPwJ5ecUxGu1uGmwJQykUhqd2QrCrYbwvsFYdRyviu6jG9+pccwDXJR/OpmOTOJ9yLFunVgQu9wg==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "name": "colorette",
+      "version": "1.2.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w=="
+    },
+    {
+      "name": "core-js",
+      "version": "1.2.7",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=",
+      "deprecated": "core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js."
+    },
+    {
+      "name": "debug",
+      "version": "4.3.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==",
+      "engines": {
+        "node": ">=6.0"
+      }
+    },
+    {
+      "name": "encoding",
+      "version": "0.1.13",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A=="
+    },
+    {
+      "name": "esbuild",
+      "version": "0.12.15",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-72V4JNd2+48eOVCXx49xoSWHgC3/cCy96e7mbXKY+WOWghN00cCmlGnwVLRhRHorvv0dgCyuMYBZlM2xDM5OQw==",
+      "hasBin": true
+    },
+    {
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w=="
+    },
+    {
+      "name": "fbjs",
+      "version": "0.8.17",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90="
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+      "engines": {
+        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+      }
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.1",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
+    },
+    {
+      "name": "has",
+      "version": "1.0.3",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
+      "engines": {
+        "node": ">= 0.4.0"
+      }
+    },
+    {
+      "name": "hoist-non-react-statics",
+      "version": "1.2.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-qkSM8JhtVcxAdzsXF0t90GbLfPs="
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.6.3",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "name": "is-core-module",
+      "version": "2.4.0",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-6A2fkfq1rfeQZjxrZJGerpLCTHRNEBiSgnu0+obeJpEPZRUooHgsizvzv0ZjJwOz3iWIHdJtVWJ/tmPr3D21/A=="
+    },
+    {
+      "name": "is-stream",
+      "version": "1.1.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-EtSj3U5o4Lec6428hBc66A2RykQ=",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "name": "isomorphic-fetch",
+      "version": "2.2.1",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk="
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+    },
+    {
+      "name": "kleur",
+      "version": "4.1.4",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==",
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    {
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "hasBin": true
+    },
+    {
+      "name": "magic-string",
+      "version": "0.25.7",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA=="
+    },
+    {
+      "name": "mri",
+      "version": "1.1.6",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ==",
+      "engines": {
+        "node": ">=4"
+      }
+    },
+    {
+      "name": "ms",
+      "version": "2.1.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
+    },
+    {
+      "name": "nanoid",
+      "version": "3.1.23",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==",
+      "engines": {
+        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "node-fetch",
+      "version": "1.7.3",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ=="
+    },
+    {
+      "name": "object-assign",
+      "version": "4.1.1",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "name": "path-parse",
+      "version": "1.0.7",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
+    },
+    {
+      "name": "picomatch",
+      "version": "2.3.0",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==",
+      "engines": {
+        "node": ">=8.6"
+      }
+    },
+    {
+      "name": "postcss",
+      "version": "8.3.5",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==",
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      }
+    },
+    {
+      "name": "prettier-plugin-svelte",
+      "version": "2.3.1",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^2.2.0",
+      "integrity": "sha512-F1/r6OYoBq8Zgurhs1MN25tdrhPw0JW5JjioPRqpxbYdmrZ3gY/DzHGs0B6zwd4DLyRsfGB2gqhxUCbHt/D1fw=="
+    },
+    {
+      "name": "prettier",
+      "version": "2.2.1",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "~2.2.1",
+      "integrity": "sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==",
+      "engines": {
+        "node": ">=10.13.0"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "prism-react",
+      "version": "1.0.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-xWjFNHYPc4MwKVxjP2Rzla+pcvQ="
+    },
+    {
+      "name": "prism-redux",
+      "version": "1.0.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-PbtUY8lSeBLPiQ0bG6KcjZAvgu0="
+    },
+    {
+      "name": "prism-svelte",
+      "version": "0.4.7",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^0.4.7",
+      "integrity": "sha512-yABh19CYbM24V7aS7TuPYRNMqthxwbvx6FF/Rw920YbyBWO3tnyPIqRMgHuSVsLmuHkkBS1Akyof463FVdkeDQ=="
+    },
+    {
+      "name": "prism",
+      "version": "4.1.2",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^4.1.2",
+      "integrity": "sha1-eD28CMTdIOo7p2eRNcpB1X3rJJY="
+    },
+    {
+      "name": "prismjs",
+      "version": "1.24.1",
+      "direct": true,
+      "scope": "prod",
+      "specifier": "^1.24.1",
+      "integrity": "sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow=="
+    },
+    {
+      "name": "promise",
+      "version": "7.3.1",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg=="
+    },
+    {
+      "name": "recompose",
+      "version": "0.22.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-8JnRg4WILKQdnuyJFxja3dwyBO8="
+    },
+    {
+      "name": "require-relative",
+      "version": "0.8.7",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4="
+    },
+    {
+      "name": "resolve",
+      "version": "1.20.0",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A=="
+    },
+    {
+      "name": "rollup",
+      "version": "2.53.0",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-spgrY78Toh+m0+zaOoeaayJKuzFuWy6o1PdFIBMVwRcuxT0xCOX9A5rChyKe+2ruL4lePKWUMImS4mMW1QAkmQ==",
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "sade",
+      "version": "1.7.4",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-y5yauMD93rX840MwUJr7C1ysLFBgMspsdTo4UVrDg3fXDvtwOyIqykhVAAm6fk/3au77773itJStObgK+LKaiA==",
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
+    },
+    {
+      "name": "setimmediate",
+      "version": "1.0.5",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU="
+    },
+    {
+      "name": "source-map-js",
+      "version": "0.6.2",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "name": "sourcemap-codec",
+      "version": "1.4.8",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA=="
+    },
+    {
+      "name": "svelte-hmr",
+      "version": "0.14.5",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-3O+kkbT1XKAomKB0LRcdY8JUTzONoNZ8rSH4iEdG7piIYsw+KkXpTkbbU1Sc1yPY4onfXkmCrHElYsxr0V1Snw=="
+    },
+    {
+      "name": "svelte",
+      "version": "3.38.3",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^3.34.0",
+      "integrity": "sha512-N7bBZJH0iF24wsalFZF+fVYMUOigaAUQMIcEKHO3jstK/iL8VmP9xE+P0/a76+FkNcWt+TDv2Gx1taUoUscrvw==",
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    {
+      "name": "symbol-observable",
+      "version": "1.2.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "name": "ua-parser-js",
+      "version": "0.7.28",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g=="
+    },
+    {
+      "name": "vite",
+      "version": "2.4.1",
+      "direct": false,
+      "scope": "dev",
+      "integrity": "sha512-4BpKRis9uxIqPfIEcJ18LTBsamqnDFxTx45CXwagHjNltHa6PFEvf8Pe6OpgIHb0OyWT30OXOSSQvdOaX4OBiQ==",
+      "engines": {
+        "node": ">=12.0.0"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "whatwg-fetch",
+      "version": "3.6.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA=="
+    }
+  ]
+}

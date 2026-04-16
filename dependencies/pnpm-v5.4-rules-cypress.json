@@ -1,0 +1,20 @@
+{
+  "repo": "pnpm-v5.4-rules-cypress",
+  "packageManager": "pnpm",
+  "lockfile": "pnpm-lock.yaml",
+  "lockfileVersion": "5.4",
+  "packages": [
+    {
+      "name": "prettier",
+      "version": "3.2.5",
+      "direct": true,
+      "scope": "dev",
+      "specifier": "^3.2.5",
+      "integrity": "sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==",
+      "engines": {
+        "node": ">=14"
+      },
+      "hasBin": true
+    }
+  ]
+}

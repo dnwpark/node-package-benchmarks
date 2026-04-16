@@ -1,0 +1,177 @@
+{
+  "repo": "pnpm-v6.0-gondolin",
+  "packageManager": "pnpm",
+  "lockfile": "pnpm-lock.yaml",
+  "lockfileVersion": "6.0",
+  "packages": [
+    {
+      "name": "/@types/node-forge",
+      "version": "1.3.14",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-mhVF2BnD4BO+jtOp7z1CdzaK4mbuK0LLQYAvdOLqHTavxFNq4zA1EmYkpnFjP8HOUzedfQkRnp0E2ulSAYSzAw=="
+    },
+    {
+      "name": "/@types/node",
+      "version": "18.19.130",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg=="
+    },
+    {
+      "name": "/@types/node",
+      "version": "22.19.8",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-ebO/Yl+EAvVe8DnMfi+iaAyIqYdK0q/q0y0rw82INWEKJOBe6b/P3YWE8NW7oOlF/nXFNrHwhARrN/hdgDkraA=="
+    },
+    {
+      "name": "/@types/ssh2",
+      "version": "1.15.5",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-N1ASjp/nXH3ovBHddRJpli4ozpk6UdDYIX4RJWFa9L1YKnzdhTlVmiGHm4DZnj/jLbqZpes4aeR30EFGQtvhQQ=="
+    },
+    {
+      "name": "/asn1",
+      "version": "0.2.6",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ=="
+    },
+    {
+      "name": "/bcrypt-pbkdf",
+      "version": "1.0.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-qeFIXtP4MSoi6NLqO12WfqARWWuCKi2Rn/9hJLEmtB5yTNr9DqFWkJRCf2qShWzPeAMRnOgCrq0sg/KLv5ES9w=="
+    },
+    {
+      "name": "/buildcheck",
+      "version": "0.0.7",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-lHblz4ahamxpTmnsk+MNTRWsjYKv965MwOrSJyeD588rR3Jcu7swE+0wN5F+PbL5cjgu/9ObkhfzEPuofEMwLA==",
+      "engines": {
+        "node": ">=10.0.0"
+      }
+    },
+    {
+      "name": "/cbor",
+      "version": "10.0.11",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-vIwORDd/WyB8Nc23o2zNN5RrtFGlR6Fca61TtjkUXueI3Jf2DOZDl1zsshvBntZ3wZHBM9ztjnkXSmzQDaq3WA==",
+      "engines": {
+        "node": ">=20"
+      }
+    },
+    {
+      "name": "/cpu-features",
+      "version": "0.0.10",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-9IkYqtX3YHPCzoVg1Py+o9057a3i0fp7S530UWokCSaFVTc7CwXPRiOjRjBQQ18ZCNafx78YfnG+HALxtVmOGA==",
+      "engines": {
+        "node": ">=10.0.0"
+      }
+    },
+    {
+      "name": "/nan",
+      "version": "2.25.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-0M90Ag7Xn5KMLLZ7zliPWP3rT90P6PN+IzVFS0VqmnPktBk3700xUVv8Ikm9EUaUE5SDWdp/BIxdENzVznpm1g=="
+    },
+    {
+      "name": "/node-forge",
+      "version": "1.3.3",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-rLvcdSyRCyouf6jcOIPe/BgwG/d7hKjzMKOas33/pHEr6gbq18IK9zV7DiPvzsz0oBJPme6qr6H6kGZuI9/DZg==",
+      "engines": {
+        "node": ">= 6.13.0"
+      }
+    },
+    {
+      "name": "/nofilter",
+      "version": "3.1.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-l2NNj07e9afPnhAhvgVrCD/oy2Ai1yfLpuo3EpiO1jFTsB4sFz6oIfAfSZyQzVpkZQ9xS8ZS5g1jCBgq4Hwo0g==",
+      "engines": {
+        "node": ">=12.19"
+      }
+    },
+    {
+      "name": "/prettier",
+      "version": "3.8.1",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==",
+      "engines": {
+        "node": ">=14"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "/safer-buffer",
+      "version": "2.1.2",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
+    },
+    {
+      "name": "/ssh2",
+      "version": "1.17.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-wPldCk3asibAjQ/kziWQQt1Wh3PgDFpC0XpwclzKcdT1vql6KeYxf5LIt4nlFkUeR8WuphYMKqUA56X4rjbfgQ==",
+      "engines": {
+        "node": ">=10.16.0"
+      }
+    },
+    {
+      "name": "/tweetnacl",
+      "version": "0.14.5",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA=="
+    },
+    {
+      "name": "/typescript",
+      "version": "5.9.3",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "engines": {
+        "node": ">=14.17"
+      },
+      "hasBin": true
+    },
+    {
+      "name": "/undici-types",
+      "version": "5.26.5",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA=="
+    },
+    {
+      "name": "/undici-types",
+      "version": "6.21.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
+    },
+    {
+      "name": "/undici",
+      "version": "6.23.0",
+      "direct": false,
+      "scope": "prod",
+      "integrity": "sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==",
+      "engines": {
+        "node": ">=18.17"
+      }
+    }
+  ]
+}

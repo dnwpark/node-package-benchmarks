@@ -1,0 +1,8 @@
+{
+  "repo": "bun-binary-ptimer-web",
+  "packageManager": "bun",
+  "lockfile": "bun.lockb",
+  "lockfileVersion": null,
+  "note": "Binary format \u2014 cannot be parsed without bun CLI",
+  "packages": []
+}
